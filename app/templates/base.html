@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+<html>
+    <head>
+      <title>{{ title }} - My Events</title>
+    </head>
+    <body>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/preorder">Pre Order Playstion 5</a></li>
+        </ul>
+        <hr>
+        {% block content %}
+
+        {% endblock %}
+    </body>
+</html>
